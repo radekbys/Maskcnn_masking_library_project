@@ -3,4 +3,4 @@ Project includes
 * Cpp project in which i created the library using opencv and onnxruntime
 * directory with compiled library and required header files
 
-model is trained on the COCO dataset
+model MaskRCNN_ResNet50_FPN is trained on the COCO dataset
