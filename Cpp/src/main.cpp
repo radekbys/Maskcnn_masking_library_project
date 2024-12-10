@@ -16,10 +16,10 @@ int main(int argc, char *argv[])
 #define IMAGE_PATH "car.png"
 #define SHARPENING_STRENGTH 150
 
-    // tested, works fine
-    ImageOperations imageOperator;
-    imageOperator.load_image("car.png");
-    Masking::mask_and_display(LABEL, MODEL_PATH, imageOperator.Get_initial_image(), SHARPENING_STRENGTH);
+    // // tested, works fine
+    // ImageOperations imageOperator;
+    // imageOperator.load_image("car.png");
+    // Masking::mask_and_display(LABEL, MODEL_PATH, imageOperator.Get_initial_image(), SHARPENING_STRENGTH);
 
     return 0;
 }
